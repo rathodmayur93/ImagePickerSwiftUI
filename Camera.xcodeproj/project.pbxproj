@@ -14,6 +14,8 @@
 		77A41B182347CD5800A78E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A41B172347CD5800A78E13 /* Assets.xcassets */; };
 		77A41B1B2347CD5800A78E13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A41B1A2347CD5800A78E13 /* Preview Assets.xcassets */; };
 		77A41B1E2347CD5800A78E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A41B1C2347CD5800A78E13 /* LaunchScreen.storyboard */; };
+		77A41B262347CE1000A78E13 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A41B252347CE1000A78E13 /* ImagePicker.swift */; };
+		77A41B282347E7BA00A78E13 /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A41B272347E7BA00A78E13 /* PhotoCaptureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		77A41B1A2347CD5800A78E13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		77A41B1D2347CD5800A78E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77A41B1F2347CD5800A78E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A41B252347CE1000A78E13 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		77A41B272347E7BA00A78E13 /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				77A41B0E2347CD5700A78E13 /* AppDelegate.swift */,
 				77A41B102347CD5700A78E13 /* SceneDelegate.swift */,
 				77A41B152347CD5700A78E13 /* ContentView.swift */,
+				77A41B252347CE1000A78E13 /* ImagePicker.swift */,
+				77A41B272347E7BA00A78E13 /* PhotoCaptureView.swift */,
 				77A41B172347CD5800A78E13 /* Assets.xcassets */,
 				77A41B1C2347CD5800A78E13 /* LaunchScreen.storyboard */,
 				77A41B1F2347CD5800A78E13 /* Info.plist */,
@@ -151,7 +157,9 @@
 			files = (
 				77A41B0F2347CD5700A78E13 /* AppDelegate.swift in Sources */,
 				77A41B142347CD5700A78E13 /* Camera.xcdatamodeld in Sources */,
+				77A41B262347CE1000A78E13 /* ImagePicker.swift in Sources */,
 				77A41B162347CD5700A78E13 /* ContentView.swift in Sources */,
+				77A41B282347E7BA00A78E13 /* PhotoCaptureView.swift in Sources */,
 				77A41B112347CD5700A78E13 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
